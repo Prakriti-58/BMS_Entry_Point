@@ -20,7 +20,7 @@ import com.ngn.bms.entrypoint.model.UserDTO;
 import com.ngn.bms.entrypoint.service.JwtUserDetailsService;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200", "http://192.168.124.242","http://103.80.111.102"})
+@CrossOrigin(origins = {"http://localhost:4200", "http://192.168.124.242","http://103.80.111.102","http://192.168.124.90"})
 public class JwtAuthenticationController {
 		
 	@Autowired
@@ -58,7 +58,5 @@ public class JwtAuthenticationController {
 			throw new Exception("INVALID_CREDENTIALS", e);
 		}
 	}
-	
-	
 	
 }

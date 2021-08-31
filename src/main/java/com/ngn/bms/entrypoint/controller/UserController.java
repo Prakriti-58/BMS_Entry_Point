@@ -15,7 +15,7 @@ import com.ngn.bms.entrypoint.repository.UserRepository;
 import com.ngn.bms.entrypoint.repository.UserRepositoryForId;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:4200", "http://192.168.124.242","http://103.80.111.102"})
+@CrossOrigin(origins = {"http://localhost:4200", "http://192.168.124.242","http://103.80.111.102","http://localhost"})
 public class UserController {
 
 	@Autowired
